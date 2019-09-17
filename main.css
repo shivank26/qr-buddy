@@ -1,0 +1,60 @@
+.html {
+    scroll-behavior: smooth;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    background-color: #f2f4f6;
+    overflow: hidden;
+}
+
+.navigation {
+    background-image: linear-gradient(to right, #146093, #0d3f67);
+    height: 4rem;
+    position: fixed;
+    z-index: -1;
+}
+
+.nav-links {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link {
+    padding: 1rem 2rem 0;
+    display: inline-block;
+    font-size: 20px;
+    color: #f2f4f6;
+    transition: 200ms ease-in-out;
+}
+
+.link:hover {
+    transform: scale(0.95);
+}
+
+.content-search {
+    margin-top: 10rem;
+}
+
+.search-btn {
+    border: 2px solid #6b48ff;
+    color: #6b48ff;
+    margin-top: 1rem;
+    width: 8rem;
+}
+
+.search-btn:hover {
+    color: #f2f4f6;
+    background-color: #6b48ff;
+}
+
+.test {
+    height: 100px;
+    background-color: red;
+}

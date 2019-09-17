@@ -1,0 +1,46 @@
+body {
+    color: #f2f4f6;
+    background-image: linear-gradient(to right, #146093, #0d3f67);
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+}
+
+.content {
+    margin-top: 10rem;
+    align-items: center;
+}
+
+.content-left {
+    display: flex;
+    align-items: baseline;
+}
+
+.home-icon {
+    width: 400px;
+}
+
+div.home-text {
+    text-align: left;
+}
+
+.main-field {
+    margin: 0.5rem 0;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid #f2f4f6;
+}
+
+.submit-btn {
+    border: 2px solid #1ee3cf;
+    color: #1ee3cf;
+    border-radius: 15px;
+    float: left;
+    width: 100px;
+}
+
+.submit-btn:hover {
+    color: #f2f4f6;
+    border-color: #f2f4f6;
+}
